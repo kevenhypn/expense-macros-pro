@@ -4,28 +4,20 @@
     "slug": "expense-macros-pro",
     "version": "2.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
     "scheme": "expensemacros",
     "userInterfaceStyle": "dark",
-    "splash": {
-      "image": "./assets/splash.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#0a0a0a"
-    },
     "ios": {
       "bundleIdentifier": "com.kevenhypn.expensemacros",
       "supportsTablet": false
     },
     "android": {
+      "package": "com.kevenhypn.expensemacros",
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#0a0a0a"
-      },
-      "package": "com.kevenhypn.expensemacros"
+      }
     },
     "plugins": [
-      "expo-router",
-      "expo-haptics"
+      "expo-router"
     ],
     "experiments": {
       "typedRoutes": true
